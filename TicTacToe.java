@@ -5,12 +5,6 @@ import java.util.Scanner;
 public class TicTacToe
 {
 
-    int board[]= {1,2,3,4,5,6,7,8,9};
-    char InitBoard[]={' ',' ',' ',' ',' ',' ',' ',' ',' '};
-    int magicSquare[]={2,7,6,9,5,1,4,3,8};
-    ArrayList<Integer> user;
-    ArrayList<Integer> machine;
-
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         TicTacToe t = new TicTacToe();
@@ -67,6 +61,11 @@ public class TicTacToe
         }
     }
 
+    int board[]= {1,2,3,4,5,6,7,8,9};
+    char InitBoard[]={' ',' ',' ',' ',' ',' ',' ',' ',' '};
+    int magicSquare[]={2,7,6,9,5,1,4,3,8};
+    ArrayList<Integer> user;
+    ArrayList<Integer> machine;
 
     //Here 0 is User and X is Machine
     public TicTacToe(){
