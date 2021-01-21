@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class TicTacToe
 {
 
-    //O->user
-    //X->machine
 
     int board[]= {1,2,3,4,5,6,7,8,9};
     char Nboard[]={'\0','\0','\0','\0','\0','\0','\0','\0','\0'};
